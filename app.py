@@ -14,7 +14,7 @@ app = MultiApp()
 st.markdown("""
 # Edify Accelerators
 
-This is Data Science app by the [Edify Accelerators](https://share.streamlit.io/) 
+This is Data Science app by the [Edify Accelerators](edifyaccelerators.in/) 
 
 """)
 
