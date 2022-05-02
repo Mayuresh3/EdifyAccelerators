@@ -70,7 +70,7 @@ def app():
             y=data[target]
             X_train, X_test, y_train, y_test = train_test_split(x, y, test_size = 0.2, random_state=42)
 
-            nn=st.number_input('Pick a KNN number', 1, 1000)
+            nn=st.number_input('Pick a KNN number', 2, 1000)
             weights=st.selectbox("What is the weight type",("uniform","distance"))
 
             if data[target].dtype=='float':
